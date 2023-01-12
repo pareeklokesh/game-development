@@ -1,0 +1,376 @@
+*, body {
+	font-family: 'Open Sans', sans-serif;
+}
+.header-top {
+	background: #19132e;
+}
+.quote-btn {
+  width: 140px;
+  padding: 14px;
+  background: #005cbf 0 0 no-repeat padding-box;
+  color: #fff;
+  border-radius: 60px;
+  opacity: 1;
+  border: 1px solid #0d6efd;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.hero-banner {
+  background: transparent radial-gradient(closest-side at 50% 50%,#9a0018 0,#7e0013 15%,#3a0009 56%,#100002 85%,#000 100%) 0 0 no-repeat padding-box;
+  padding-top: 10rem;
+padding-bottom: 10rem
+}
+.header-top {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  box-shadow: 0 5px 5px 0 rgba(48,68,78,10%);
+  z-index: 999;
+}
+.hero-banner-title {
+  color: #e4e4e4;
+  margin: .67em 0;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 82px;
+  font-family: 'Poppins', sans-serif;
+}
+.hero-banner p {
+  margin-bottom: 1rem;
+  font-size: 32px;
+  font-weight: 400;
+  color: #e4e4e4;
+  line-height: 52px;
+  font-family: 'Poppins', sans-serif;
+}
+.hero-bottom {
+  position: absolute;
+  bottom: 10px;
+  width: 260px;
+  left: 15px;
+}
+.clients {
+  background: #015cbe;
+  padding-top: 60px;
+}
+.clients-block {
+  background: #fff;
+  border-radius: 34px 34px 0 0;
+  padding: 62px !important;
+}
+.clients-block h2 {
+  text-align: center;
+  letter-spacing: 1.01px;
+  color: #131313;
+  margin-bottom: 60px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 36px;
+  font-family: 'Poppins', sans-serif;
+}
+.other-game {
+  background: #131313;
+  padding: 1.5rem;
+  color: #fff;
+}
+.block-title {
+	letter-spacing: 1.34px;
+color: #fff;
+opacity: 1;
+margin: 50px 0;
+font-size: 48px;
+font-weight: 400;
+font-family: 'Poppins', sans-serif;
+}
+.cardgames {
+  padding: 23px;
+  height: 100%;
+  background: #222 0 0 no-repeat padding-box;
+  border-radius: 23px;
+  opacity: 1;
+  text-align: center;
+}
+.cardgames h3 {
+  letter-spacing: 1.01px;
+  color: #fff;
+  opacity: 1;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+.cardgames p {
+  font-size: 22px;
+  letter-spacing: .67px;
+  color: #5a5a5a;
+}
+.cardgames img {
+	border-radius: 12px;
+}
+.btn-get {
+  background: transparent;
+  border: 0;
+  padding: ;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  padding: 10px 15px;
+  position: relative;
+  background: linear-gradient(#bcf48d, #57d093);transform: skew(-20deg);
+  min-height: 54px;
+min-width: 255px;
+color: #131313;
+transition: all .4s linear;
+}
+.btn-get span {
+  transform: skew(7deg);
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 9px;
+}
+.btn-get::before, .btn-get::after {
+  content: "";
+  display: block;
+  border: 0;
+  width: 20px;
+  height: 20px;
+  border-left: 4px solid #bcf48d;
+  border-bottom: 4px solid #57d093;
+  position: absolute;
+  left: -17px;
+  bottom: -15px;
+  transition: all .4s linear;
+}
+.btn-get::after {
+	left: inherit;
+	bottom: inherit;
+	right: -17px;
+	top: -15px;
+	transform: rotate(180deg);
+}
+.btn-get:hover::before, .btn-get:hover::after {
+	border-color: transparent;
+}
+.btn-get:hover::before {
+	left: 0;
+	bottom: 0;
+}
+.btn-get:hover::after {
+	top: 0;
+	right: 0;
+}
+.pro-game {
+  background: #16102b;
+  color: #fff;
+}
+.progame-des {
+  text-align: center;
+  padding: 23px;
+  border: 3px solid #0f5cbf;
+  border-radius: 14px;
+  height: 100%;
+}
+.progame-des h3 {
+  letter-spacing: 1.01px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 23px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.progame-des ul {
+  padding: 0;
+  list-style: none;
+  margin-top: 1.5rem;
+}
+.progame-des ul li {
+  text-align: left;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-left: 45px;
+}
+.progame-des ul li:last-child {
+  margin-bottom: 0;
+}
+.progame-des ul li::before {
+  content: "";
+  display: block;
+  width: 31px;
+  height: 31px;
+  background: url('../img/probefore.png') no-repeat;
+  background-position: center;
+  position: absolute;
+left: 0;
+top: -2px;
+}
+.our-work img {
+  border-radius: 24px;
+  width: 100%;
+  height: 283px;
+}
+.our-work-content {
+  padding: 23px;
+  text-align: center;
+}
+.our-work-content h3 {
+  letter-spacing: .67px;
+  color: #fff;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.pro-game {
+  padding-bottom: 70px;
+}
+.pro-game .btn-get {
+  margin-top: 40px;
+}
+.text-black {
+  color: #343434;
+}
+
+.rocket {
+  background: url('../img/rocket.webp') no-repeat;
+  background-position: 50%;
+background-size: contain;
+background-color: #005cbf;
+padding: 80px 15px;
+margin-top: 50px;
+}
+.request-callback {
+  padding: 2rem 2rem 1rem;
+  background: #fff;
+  border-radius: 24px;
+}
+.request-header {
+  text-align: center;
+  padding-bottom: 15px;
+}
+.request-header h2 {
+  letter-spacing: -.29px;
+  color: #343434;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+.request-header p {
+  color: #343434;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+.request-callback .form-control {
+  width: 100%;
+  height: 50px;
+  padding: 25px 40px 23px 15px;
+  font-size: 16px;
+  background: #f8f8f8;
+  border-radius: 6px;
+  border: 2px solid #f8f8f8;
+  outline: none !important;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+}
+.request-callback .form-control::placeholder {
+  opacity: 0.4;
+}
+.form-group {
+  margin-bottom: 25px;
+  position: relative;
+}
+.request-callback .country-code {
+  position: absolute;
+  font-size: 18px;
+  color: #000;
+  left: 25px;
+}
+.request-callback label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+}
+.request-callback .request-submit {
+  width: 180px;
+  padding: 1rem;
+  background: #26a54b;
+  color: #fff;
+  border-radius: 71px;
+  text-align: center;
+  font-size: 20px;
+  border: none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+.faqs {
+  margin-bottom: 60px;
+}
+.footer {
+  background: #005bbe;
+  color: #efeeee;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #efeeee;
+}
+.footer ul {
+  padding: 0;
+  list-style: none;
+}
+.footer-add strong, .footer-add li {
+  font-size: 15px;
+}
+.footer-add li a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #efeeee;
+  text-decoration: none;
+ }
+.footer-add li, .footer-link li {
+  display: block;
+  margin-bottom: 15px;
+}
+.footer-link li a {
+  color: #efeeee;
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+.copyright-text p {
+  color: #efeeee;
+  font-size: 15px;
+  margin: 0;
+}
+.copyright-text p a {
+  text-decoration: none;
+  color: #efeeee;
+  font-size: 15px;
+  margin: 0 5px;
+}
+.copyright-text {
+  margin-top: 20px !important;
+}
+.social_icon li a {
+  color: #fff;
+  font-size: 22px;
+  margin-right: 15px;
+}
+.faqs .accordion {
+  background: #fff;
+  box-shadow: 0 0 7px rgba(119,119,119,.16);
+  border-radius: 22px;
+  width: 100%;
+}
+.faqs .accordion .accordion-button {
+  font-size: 19px;
+  font-weight: 500;
+  padding: 23px;
+  color: #000;
+}
